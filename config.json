@@ -9,9 +9,7 @@
     },
     "streamSettings": {
       "network": "ws",
-      "wsSettings": { 
-        "path": "/gojo/unlimited/void" 
-      }
+      "wsSettings": { "path": "/gojo/unlimited/void" }
     }
   }],
   "outbounds": [{ "protocol": "freedom" }]
