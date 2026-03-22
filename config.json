@@ -1,0 +1,17 @@
+{
+  "log": { "loglevel": "none" },
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{ "id": "7ac156a0-5432-4d2f-ae4-8f83b1029c4d" }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": { "path": "/gojo/unlimited/void" }
+    }
+  }],
+  "outbounds": [{ "protocol": "freedom" }]
+}
+
